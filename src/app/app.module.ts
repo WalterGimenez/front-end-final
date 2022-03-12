@@ -7,6 +7,7 @@ import { PaginaErrorComponent } from './component/pagina-error/pagina-error.comp
 import { ApLogoComponent } from './component/ap-logo/ap-logo.component';
 import { RedesComponent } from './component/redes/redes.component';
 import { HeaderComponent } from './component/header/header.component';
+import { BannerComponent } from './component/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './component/header/header.component';
     PaginaErrorComponent,
     ApLogoComponent,
     RedesComponent,
-    HeaderComponent
+    HeaderComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
