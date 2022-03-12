@@ -1,0 +1,26 @@
+#gim{
+    
+   width: 140px;
+   border-radius: 100px;
+   margin-top: -60px;
+   margin-left: 25px;
+   z-index: 5;
+}
+
+h1,h3, p{
+    margin-left: 25px;
+}
+
+#desarrollo{
+   height: 70px;
+   width: 160px;
+   margin-top: -15px;
+ }
+
+#unaj{
+   height: 80px;
+   width: 80px;
+   margin-top: -25px;
+   margin-left: 30px;
+}
+
