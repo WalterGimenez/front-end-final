@@ -1,0 +1,24 @@
+h1{
+    margin-left: 25px;
+}
+
+h1,h3{
+    display: inline;
+}
+
+#ts, #unaj, #sec{
+    width: 80px;
+    margin-left: 50px;
+}
+
+
+
+.row{
+    padding-top: 15px;
+}
+
+
+li{
+    list-style: none;
+    margin-left: -5px;
+}

@@ -9,6 +9,8 @@ import { RedesComponent } from './component/redes/redes.component';
 import { HeaderComponent } from './component/header/header.component';
 import { BannerComponent } from './component/banner/banner.component';
 import { AcercaDeComponent } from './component/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './component/experiencia/experiencia.component';
+import { EducacionComponent } from './component/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AcercaDeComponent } from './component/acerca-de/acerca-de.component';
     RedesComponent,
     HeaderComponent,
     BannerComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
