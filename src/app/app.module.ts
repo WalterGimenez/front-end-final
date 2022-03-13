@@ -12,6 +12,8 @@ import { AcercaDeComponent } from './component/acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './component/experiencia/experiencia.component';
 import { EducacionComponent } from './component/educacion/educacion.component';
 import { SkillsComponent } from './component/skills/skills.component';
+import { PortfolioService } from './services/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,9 +31,10 @@ import { SkillsComponent } from './component/skills/skills.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,    
     NgCircleProgressModule.forRoot({})
   ],
-  providers: [],
+  providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

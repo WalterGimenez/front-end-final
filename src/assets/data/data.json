@@ -1,0 +1,31 @@
+{
+    "name": "Walter Rafael",
+    "lastname": "Gimenez",
+    "born": "13/11/1973",
+    "banner":"../../../assets/banner-verde.webp",
+    "photo": "../../../assets/gimenez.png",
+    "position": "Full Stack Developer Jr.",
+    "place": "Buenos Aires, Argentina",
+    "photoMin": "/assets/desarrollo.png",
+    "company":{
+        "name": "Universidad Nacional Arturo Jauretche",
+        "position": "Supervisor del Centro de Copiado",
+        "img": "/assets/logoUnaj.png",
+        "start": "2017",
+        "end": "2020",
+        "description": "Supervisión de equipo, Atención al Público , Cierre de Caja, Control de Stock"
+    },
+    "school":{
+        "name": "Universidad Nacional Arturo Jauretche",
+        "img": "/assets/logoUnaj.png",
+        "start": "2015",
+        "end": "Actualidad",
+        "description": "Ingeniería en Informática, 2º Año"
+    },
+    "skills":{
+        "percent": "90",
+        "type": "hard",
+        "description": "Responsabilidad"
+
+    }
+}
