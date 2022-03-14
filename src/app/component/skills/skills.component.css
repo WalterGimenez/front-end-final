@@ -4,6 +4,7 @@
 
 h1{
     margin-left: 25px;
+    margin-top: 20px;
 }
 
 li{
@@ -11,8 +12,19 @@ li{
 }
 .progress-bar{
     background-color: #C2684A;
+    
+}
+
+.progress {
+    width: 800px;
 }
 
 p{
     font-weight: bold;
+    display: inline;
+}
+
+#porcentaje{
+    
+    display: inline;
 }

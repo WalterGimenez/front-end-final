@@ -3,3 +3,19 @@ body{
     min-width: 496px;
     background-color: bisque;
 }
+
+#add{
+    height: 20px;
+    margin-top: 25px;
+    
+ }
+ #pencil{
+    height: 20px;
+    margin-left: 90px;
+    margin-top: -5px;
+ }
+ #trash{
+    height: 20px;
+    margin-right: 70px;
+    margin-top: -5px;
+ }
