@@ -7,9 +7,10 @@ h1,h3{
     display: inline;
 }
 
-#ts, #unaj{
+#trabajo{
     width: 80px;
-    margin-left: 50px;
+    margin-left: 26px;
+    margin-top: -10px;
 }
 
 #unaj{

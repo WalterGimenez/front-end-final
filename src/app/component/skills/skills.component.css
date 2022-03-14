@@ -1,3 +1,18 @@
 .row{
     padding: 25px;
 }
+
+h1{
+    margin-left: 25px;
+}
+
+li{
+    list-style: none;
+}
+.progress-bar{
+    background-color: #C2684A;
+}
+
+p{
+    font-weight: bold;
+}

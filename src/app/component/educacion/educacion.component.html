@@ -1,22 +1,17 @@
-<div class="row" >
+<div>
     <h1>Educación</h1>
-    <div class="col-lg-1">
-        <img src="/assets/logoUnaj.png" alt="logo Unaj" id="unaj">
-        <img src="../../../assets/secundario.png" class="img-fluid" id="sec">
-    </div>
-    <div class="col-lg-11">
-        <ul>
-            <li>
-                <h2>Universidad Nacional Arturo Jauretche <h3>2015/Actualidad</h3></h2>
-            <p>
-                • Ingeniería en Informática
-            </p>
-            </li>
-            <li>
-                <h2>Nuestra Señora del Perpetuo Socorro<h3>2004-2009</h3></h2>
-                <p> • Perito Mercantil
-                </p>
-            </li>
-        </ul>
-    </div>
+    <ul>
+        <li *ngFor="let educacion of educationList">
+            <div class="row">
+                <div class="col-lg-1">
+                    <img [src]="educacion.img" alt="logo" id="educa">  
+                </div>
+                <div class="col-lg-11">
+                    <h2>{{educacion.name}} <h3>{{educacion.start}}/{{educacion.end}}</h3></h2>
+                    <p>{{educacion.description}}</p>
+                </div>
+            </div>
+                
+        </li>
+    </ul>
 </div>

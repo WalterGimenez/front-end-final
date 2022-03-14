@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-ap-logo',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ap-logo.component.css']
 })
 export class ApLogoComponent implements OnInit {
-
-  constructor() { }
+  dataAP: any;
+  
+  constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
+      console.log(data);
+      this.dataAP = data;
+      
+    });
   }
-
 }

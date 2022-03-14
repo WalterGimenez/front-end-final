@@ -1,15 +1,15 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img src="../../../assets/gimenez.png" alt="foto Walter Gimenez" class="img-fluid" id="gim">
+        <img [src]="datoPortfolio.photo" alt="foto Walter Gimenez" class="img-fluid" id="gim">
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1>Walter Rafael Gimenez</h1>
+        <h1>{{ datoPortfolio.name }}</h1>
     </div>
     <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-        <p>Full Stack Developer Jr.<br>Buenos Aires, Argentina</p>
+        <p>{{ datoPortfolio.position }}<br>{{ datoPortfolio.place }}</p>
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="/assets/desarrollo.png" alt="logo Ministerio de Desarrollo" id="desarrollo">
+        <img [src]="datoPortfolio.photoMin" alt="logo Ministerio de Desarrollo" id="desarrollo">
     </div>
     <br>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
@@ -17,12 +17,9 @@
     </div>
     
     <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10" >
-        <p class="acerca">
-            Full Stack Developer Jr. mediante Argentina Programa del Ministerio de Desarrollo Productivo<br>
-            Estudiante de Ingeniería en 2º año de la carrera de Informática UNAJ(Universidad Nacional Arturo Jauretche)
-        </p>
+        <p class="acerca">{{ datoPortfolio.about }} <br> {{ datoPortfolio.about2 }}</p>
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="/assets/logoUnaj.png" alt="logo Unaj" id="unaj">
+        <img [src]="datoPortfolio.photoUni" alt="logo Unaj" id="unaj">
     </div>
 </div>

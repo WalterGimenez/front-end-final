@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-pagina-error',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagina-error.component.css']
 })
 export class PaginaErrorComponent implements OnInit {
+  datoErroneo: any;
+  
 
-  constructor() { }
+  constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
+      console.log(data);
+      this.datoErroneo = data.error;
+    });
   }
 
 }
